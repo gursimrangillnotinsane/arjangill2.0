@@ -1,7 +1,14 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Poly } from "next/font/google";
 import "./globals.css";
 
+// This applies the Poly font and creates a CSS variable --font-poly
+const poly = Poly({
+  variable: '--font-poly',
+  weight: '400',           // Set weight to regular
+  style: 'normal',         // Set style to normal
+  subsets: ['latin'],      // Latin subset
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +21,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ fontFamily: 'var(--font-poly), sans-serif' }}>
+      <head>
+      </head>
       <body >
         {children}
       </body>

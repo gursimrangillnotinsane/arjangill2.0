@@ -3,7 +3,7 @@ const content = () => {
 
         <section className="website-content">
             <div className="content">
-                <h2>YOUR WEBSITE</h2>
+                <h2 className="text-5xl">The finest sound and DJ store in Punjab</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
                     eligendi non saepe harum quis nam, corrupti, accusamus corporis

@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      transitionTimingFunction: {
+        'in-expo': 'ccubic-bezier(.215, .61, .355, 1)',
+        'out-expo': 'cubic-bezier(0.19, 1, 0.22, 1)',
+      }
     },
   },
   plugins: [],

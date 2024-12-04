@@ -1,8 +1,15 @@
+import { Source_Code_Pro } from 'next/font/google';
+const geist = Source_Code_Pro({
+    weight: ['400',],
+    style: ['normal'],
+    subsets: ['latin'],
+    display: 'swap',
+})
 const header = () => {
     return (
-        <nav>
+        <nav className={geist.className}>
             <div className="logo">
-                <a href="#">Code</a>
+                {/* <a href="#">Code</a> */}
             </div>
             <div className="links">
                 <a href="#">Home</a>
