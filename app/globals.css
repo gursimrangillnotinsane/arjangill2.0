@@ -25,7 +25,9 @@ h1 {
   transition:  .65s cubic-bezier(.215, .61, .355, 1) ;
   color:#cecbc8;
 }
-
+svg{
+  transition:  .65s cubic-bezier(.215, .61, .355, 1) ;
+}
 p {
   font-size: 24px;
   font-weight: 400;
