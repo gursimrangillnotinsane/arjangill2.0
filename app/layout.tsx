@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Poly } from "next/font/google";
+import { Poly, Poppins } from "next/font/google";
 import "./globals.css";
 
 // This applies the Poly font and creates a CSS variable --font-poly
 const poly = Poly({
   variable: '--font-poly',
+  weight: '400',           // Set weight to regular
+  style: 'normal',         // Set style to normal
+  subsets: ['latin'],      // Latin subset
+});
+
+const poppins = Poppins({
   weight: '400',           // Set weight to regular
   style: 'normal',         // Set style to normal
   subsets: ['latin'],      // Latin subset
@@ -24,7 +30,7 @@ export default function RootLayout({
     <html lang="en" style={{ fontFamily: 'var(--font-poly), sans-serif' }}>
       <head>
       </head>
-      <body >
+      <body className={poppins.className} >
         {children}
       </body>
     </html>

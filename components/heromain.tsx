@@ -72,21 +72,24 @@ const heromain = () => {
 
                 mm.add("(min-width: 1024px)", () => {
                     // Animations for larger screens
-                    gsap.to("svg", {
+                    gsap.to(".animation", {
                         scrollTrigger: {
                             trigger: ".content",
                             start: "top bottom",
                             end: "bottom center",
                             scrub: .5,
+                            // markers: true
                         },
-                        height: '10%',
+                        zIndex: 10,
+                        height: '8%',
                         width: '8%' // Include width only on larger screens
+
                     });
                 });
 
                 mm.add("(max-width: 1023px)", () => {
                     // Animations for smaller screens
-                    gsap.to("svg", {
+                    gsap.to(".animation ", {
                         scrollTrigger: {
                             trigger: ".content",
                             start: "top bottom",
@@ -94,19 +97,19 @@ const heromain = () => {
                             scrub: true,
                             onUpdate: function () {
                                 // Get the current height of the SVG
-                                const currentHeight = gsap.getProperty("svg", "height");
+                                const currentHeight = gsap.getProperty(".animation ", "height");
 
                                 // When the height reaches 40%, start reducing the width
                                 if (currentHeight <= '40') {
                                     console.log(currentHeight)
-                                    gsap.to("svg", {
+                                    gsap.to(" .animation ", {
                                         width: '10%',
                                         height: '10%'// Example: change the width when height reaches 40%
                                     });
                                 }
                                 if (currentHeight >= '40') {
                                     console.log(currentHeight)
-                                    gsap.to("svg", {
+                                    gsap.to(".animation ", {
                                         width: '100%' // Example: change the width when height reaches 40%
                                     });
                                 }
@@ -192,8 +195,7 @@ const heromain = () => {
 
     return (
         <>
-
-            <section className="lottie-container">
+            <section className="lottie-container" style={{ padding: 0 }}>
                 <div ref={lottieContainerRef} className="animation">
 
                 </div>
