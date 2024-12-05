@@ -14,9 +14,8 @@ const whyus = () => {
         <>
             <section id="features" className="features">
                 <div className="container  text-white" data-aos="fade-up">
-
-                    <div className="flex">
-                        <div className="image w-2/3 bg-cover" style={{ backgroundImage: 'url("https://arjangillsounds.com/assets/img/wallpaperflare.com_wallpaper.jpg")' }} data-aos="fade-right"></div>
+                    <div className="flex lg:flex-row flex-col">
+                        <div className="image min-h-[400px] lg:w-2/3 bg-cover bg-center	" style={{ backgroundImage: 'url("https://arjangillsounds.com/assets/img/wallpaperflare.com_wallpaper.jpg")' }} data-aos="fade-right"></div>
                         <div className="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                             {heading.map((head, index) => {
                                 return (

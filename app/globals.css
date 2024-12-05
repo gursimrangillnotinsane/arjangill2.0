@@ -24,8 +24,10 @@ h1 {
 
 h2 {
   font-family: var(--font-poly), sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
+
 
 h4{
   font-weight: 700;
@@ -53,6 +55,30 @@ section{
   margin:.25rem;
   margin-top:0;
 }
+
+.icon-container{
+  display:flex;
+  /* margin:0 auto; */
+  justify-content:center;
+  align-items:center;
+  background-color: #ffc451;
+  width: 64px;
+  height: 64px;
+  border-radius: 4px;
+
+}
+
+.servicediv{
+  /* relative left-[600px] hidden bg-[rgb(217_217_217)]  text-black */
+  position: relative;
+  left:800px;
+  display:none;
+  width:30vw;
+  /* height: 50vh; */
+  /* background-color: #cecbc8; */
+  color:black;
+  border:1px solid black;
+}
 .trans1 {
   transition: .2s cubic-bezier(0.25, 0.46, 0.45, 0.94) .001s;
 }
@@ -68,11 +94,6 @@ section{
   transition: .01s cubic-bezier(.215, .61, .355, 1);
 }
 
-@media(max-width:1024px) {
-  svg {
-    margin: 0;
-  }
-}
 
 
 
@@ -143,3 +164,23 @@ nav a {
   background-color: #ffffff;
   opacity: 0.85
 }
+
+@media(max-width:1024px) {
+  .animation svg {
+      margin: 0;
+    }
+    section{
+      padding:1rem;
+    }
+    .features{
+      padding:0;
+      padding-top:1rem;
+    }
+    .servicediv{
+      width: 60vw;
+    }
+    .links{
+      display: none;
+    }
+  }
+  
