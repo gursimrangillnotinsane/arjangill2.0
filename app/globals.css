@@ -76,8 +76,15 @@ section{
   width:30vw;
   /* height: 50vh; */
   /* background-color: #cecbc8; */
+  
   color:black;
-  border:1px solid black;
+  /* border:1px solid rgb(0, 0, 0); */
+}
+
+.sertext{
+  box-shadow: 0px 0 20px 4px rgb(0 0 0 / 60%);
+  border-radius: 0px 10px  10px 10px;
+  border:1px solid rgb(0, 0, 0);
 }
 .trans1 {
   transition: .2s cubic-bezier(0.25, 0.46, 0.45, 0.94) .001s;
