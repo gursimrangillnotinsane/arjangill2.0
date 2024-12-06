@@ -3,13 +3,6 @@ import { Poly, Poppins } from "next/font/google";
 import "./globals.css";
 
 // This applies the Poly font and creates a CSS variable --font-poly
-const poly = Poly({
-  variable: '--font-poly',
-  weight: '400',           // Set weight to regular
-  style: 'normal',         // Set style to normal
-  subsets: ['latin'],      // Latin subset
-});
-
 const poppins = Poppins({
   weight: '400',           // Set weight to regular
   style: 'normal',         // Set style to normal
@@ -27,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ fontFamily: 'var(--font-poly), sans-serif' }}>
+    <html lang="en">
       <head>
       </head>
       <body className={poppins.className} >

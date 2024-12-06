@@ -12,10 +12,13 @@ const whyus = () => {
     const icons = [TbCheckbox, FaRegMoneyBillAlt, TbCube, MdOutlineShield];
     return (
         <>
-            <section id="features" className="features">
-                <div className="container  text-white" data-aos="fade-up">
+            <section id="features" className="features pb-16">
+                <div className="w-full flex justify-center items-center lg:pt-0 pb-14 after:content-[''] after:w-32 after:bg-red-600 after:h-0.5 after:m-3" >
+                    <p>Why us</p>
+                </div>
+                <div className="container" data-aos="fade-up">
                     <div className="flex lg:flex-row flex-col">
-                        <div className="image min-h-[400px] lg:w-2/3 bg-cover bg-center	" style={{ backgroundImage: 'url("https://arjangillsounds.com/assets/img/wallpaperflare.com_wallpaper.jpg")' }} data-aos="fade-right"></div>
+                        <div className="image min-h-[400px] lg:w-2/3 bg-cover bg-center	" style={{ backgroundImage: 'url("https://c4.wallpaperflare.com/wallpaper/336/159/660/macro-music-background-dj-wallpaper-preview.jpg")' }} data-aos="fade-right"></div>
                         <div className="col-lg-6" data-aos="fade-left" data-aos-delay="100">
                             {heading.map((head, index) => {
                                 return (

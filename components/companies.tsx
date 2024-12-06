@@ -2,7 +2,7 @@
 
 const companies = () => {
     return (
-        <section className="bg-white bg-pattern">
+        <section className="bg-transparent pb-16">
 
         </section>
     )

@@ -67,53 +67,53 @@ const heromain = () => {
                 },
 
             });
-            animation.addEventListener("DOMLoaded", function () {
-                const mm = gsap.matchMedia();
+            // animation.addEventListener("DOMLoaded", function () {
+            //     const mm = gsap.matchMedia();
 
-                mm.add("(min-width: 1024px)", () => {
-                    // Animations for larger screens
-                    gsap.to(".animation", {
-                        scrollTrigger: {
-                            trigger: ".content",
-                            start: "top bottom",
-                            end: "bottom center",
-                            scrub: .5,
-                            // markers: true
-                        },
-                        zIndex: 10,
-                        height: '8%',
-                        width: '8%' // Include width only on larger screens
+            //     mm.add("(min-width: 1024px)", () => {
+            //         // Animations for larger screens
+            //         gsap.to(".animation", {
+            //             scrollTrigger: {
+            //                 trigger: ".content",
+            //                 start: "top bottom",
+            //                 end: "bottom center",
+            //                 scrub: .5,
+            //                 // markers: true
+            //             },
+            //             zIndex: 10,
+            //             height: '8%',
+            //             width: '8%' // Include width only on larger screens
 
-                    });
-                });
+            //         });
+            //     });
 
-                mm.add("(max-width: 1023px)", () => {
-                    // Animations for smaller screens
-                    gsap.to(".animation", {
-                        scrollTrigger: {
-                            trigger: ".content",
-                            start: "top bottom",
-                            end: "middle middle",
-                            scrub: true,
-                        },
-                        zIndex: 10,
-                        height: '7%',
+            //     mm.add("(max-width: 1023px)", () => {
+            //         // Animations for smaller screens
+            //         gsap.to(".animation", {
+            //             scrollTrigger: {
+            //                 trigger: ".content",
+            //                 start: "top bottom",
+            //                 end: "middle middle",
+            //                 scrub: true,
+            //             },
+            //             zIndex: 10,
+            //             height: '7%',
 
-                    });
-                    gsap.to(".animation", {
-                        scrollTrigger: {
-                            trigger: ".content",
-                            start: "30% bottom",
-                            end: "center bottom",
-                            scrub: true,
+            //         });
+            //         gsap.to(".animation", {
+            //             scrollTrigger: {
+            //                 trigger: ".content",
+            //                 start: "30% bottom",
+            //                 end: "center bottom",
+            //                 scrub: true,
 
-                        },
-                        width: '20%'
-                    });
-                });
+            //             },
+            //             width: '20%'
+            //         });
+            //     });
 
 
-            });
+            // });
             return animation;
         };
 
@@ -182,7 +182,7 @@ const heromain = () => {
 
     return (
         <>
-            <section className="lottie-container" style={{ padding: 0 }}>
+            <section className="lottie-container bg-transparent" style={{ padding: 0 }}>
                 <div ref={lottieContainerRef} className="animation">
 
                 </div>

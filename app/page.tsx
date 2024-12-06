@@ -6,6 +6,7 @@ import Header from "../components/header"
 import Whyus from "../components/whyus";
 import Companies from "../components/companies";
 import Services from "../components/services";
+import Products from "../components/products";
 export default function Home() {
 
   return (
@@ -13,11 +14,10 @@ export default function Home() {
       <Header />
       <Heromain />
       <Content />
-      <Companies />
       <Whyus />
+      <Companies />
       <Services />
-      <Content />
-      <Content />
+      <Products />
     </>
   )
 
