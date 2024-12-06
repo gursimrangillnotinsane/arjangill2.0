@@ -13,7 +13,7 @@ const whyus = () => {
     return (
         <>
             <section id="features" className="features pb-16">
-                <div className="w-full flex justify-center items-center lg:pt-0 pb-14 after:content-[''] after:w-32 after:bg-red-600 after:h-0.5 after:m-3" >
+                <div className="w-full flex justify-center items-center lg:pt-0 pb-14 after:content-[''] after:w-32 after:bg-[#ff5151] after:h-0.5 after:m-3" >
                     <p>Why us</p>
                 </div>
                 <div className="container" data-aos="fade-up">

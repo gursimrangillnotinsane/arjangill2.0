@@ -7,6 +7,7 @@ import Whyus from "../components/whyus";
 import Companies from "../components/companies";
 import Services from "../components/services";
 import Products from "../components/products";
+import Review from "../components/review";
 export default function Home() {
 
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       <Companies />
       <Services />
       <Products />
+      <Review />
+      <Content />
     </>
   )
 

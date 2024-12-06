@@ -68,7 +68,7 @@ const services = () => {
 
     return (
         <section className='containerServices h-screen'>
-            <div className="w-full flex justify-center items-center lg:pt-0 pt-20 after:content-[''] after:w-32 after:bg-red-600 after:h-0.5 after:m-3" >
+            <div className="w-full flex justify-center items-center lg:pt-0 pt-20 after:content-[''] after:w-32 after:bg-[#ff5151] after:h-0.5 after:m-3" >
                 <p>Services</p>
             </div>
             <div className="" data-aos="fade-up">
@@ -77,7 +77,7 @@ const services = () => {
                     <h2>Check our Services</h2>
                 </div>
 
-                <div className="grid grid-cols-12 gap-4 text-white pt-12 ">
+                <div className="grid grid-cols-12 gap-4  pt-12 ">
 
                     <div className='flex  trans1 lg:col-start-5 col-start-2 serviceright3 servicediv '>
                         <div className="icon-container "><BsMusicNoteList color="black" style={{ fontSize: '28px' }} /></div>
