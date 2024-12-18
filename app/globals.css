@@ -82,7 +82,7 @@ section {
   position: relative;
   left: 800px;
   display: none;
-  width: 30vw;
+  width: 60vw;
   /* height: 50vh; */
   /* background-color: #cecbc8; */
 
@@ -95,6 +95,8 @@ section {
   border-radius: 10px;
   /* border:1px solid rgb(0, 0, 0); */
   background-color: #fff;
+  width: 100%;
+  height:50vh;
 }
 
 .trans1 {
@@ -257,11 +259,11 @@ nav a {
     padding-top: 1rem;
   }
 
-  .servicediv {
-    width: 60vw;
-  }
 
   .links {
     display: none;
+  }
+  .sertext{
+    height:40vh;
   }
 }

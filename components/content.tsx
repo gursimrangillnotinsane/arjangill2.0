@@ -14,7 +14,7 @@ const content = () => {
                     <div className="lg:w-2/5 " >
                         <a href="gallery.html"> <img src="https://www.arjangillsounds.com/assets/img/abouts.jpg" className="img-fluid" alt="" /> </a>
                     </div>
-                    <div className="lg:w-2/3  px-2" data-aos="fade-right" data-aos-delay="100">
+                    <div data-aos="fade-right" data-aos-delay="100">
                         <h2 >The finest sound and DJ store in Punjab</h2>
                         <p className="italic ">
                             Step into our world of cutting-edge technology, premium equipment, and expert advice, where every audiophile's dream becomes a reality.</p>
