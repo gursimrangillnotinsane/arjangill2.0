@@ -26,7 +26,7 @@ export default function Home() {
       <Services />
       <Review />  {/*redirect to google reviews*/}
       <Products /> {/*page*/}
-      <ContactComponent />
+      <ContactComponent />  {/*page*/}
       {/* gallery */}
 
       {/* maybe add a journy page to show the journy and some old pics */}
