@@ -91,7 +91,7 @@ const services = () => {
                                     <ul>
                                         <li>Professional audio setup tailored to your event’s needs</li>
                                         <li>Experienced sound engineers ensuring crystal-clear quality</li>
-                                        <li>Flexible packages for events of all sizes and types</li>
+
                                     </ul>
                                     <img className="service_img" src="https://arjangillsounds.com/assets/img/gallery/32.jpg" />
                                 </div>
@@ -111,7 +111,7 @@ const services = () => {
                                         <li>High-quality sound systems for personal and professional use</li>
                                         <li>Wide range of lighting solutions, including decorative options.
                                         </li>
-                                        <li>Affordable pricing with reliable customer support and installation services</li>
+
                                     </ul>
                                     <img className="service_img" src="https://arjangillsounds.com/assets/img/gallery/2.jpg" />
                                 </div>
@@ -128,7 +128,7 @@ const services = () => {
                                     <ul>
                                         <li>Expert installation tailored to your venue’s specific needs.</li>
                                         <li>Comprehensive setup including speakers, mixers, and amplifiers.</li>
-                                        <li>Trusted by religious places, schools, bars, hotels, and more.</li>
+
                                     </ul>
                                     <img className="service_img" src="https://wg.scene7.com/is/image/wrenchgroup/modern-living-room-with-surround-sound-set-up-bb21wi001wg?$Wrench_New$" />
                                 </div>
@@ -145,7 +145,7 @@ const services = () => {
                                     <ul>
                                         <li>Customizable sound solutions,including monitors, linear, and bass setups.</li>
                                         <li>Durable flight cases available for secure storage and transport.</li>
-                                        <li>Amplifiers and a wide range of accessories to complete your audio needs.</li>
+
                                     </ul>
                                     <img className="service_img" src="https://linearraysoundsystem.com/wp-content/uploads/2021/04/3-Wooden-Speaker-Box-Manufacturer.jpg" />
                                 </div>

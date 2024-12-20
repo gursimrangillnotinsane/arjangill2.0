@@ -187,19 +187,19 @@ const heromain = () => {
 
                 </div>
                 <div className={`heading grid lg:grid-cols-12 grid-cols-1 lg:grid-rows-[300px_200px] grid-rows-[300px_125px_100px_75px_75px] ${ultra.className} z-20 px-4`}>
-                    <div className=" lg:col-start-2  col-span-5 self-end overflow-hidden">
+                    <div className=" lg:col-start-2  col-span-5 self-end overflow-hidden justify-self-center">
                         <h1 className='headinganimate leading-none  lg:text-9xl text-8xl trans3 '>ARJAN </h1>
                     </div>
-                    <div className=" lg:col-start-10 col-span-5 row-start-2 lg:row-start-1 self-end overflow-hidden">
+                    <div className=" lg:col-start-7 col-span-5 row-start-2 lg:row-start-1 self-end overflow-hidden justify-self-center">
                         <h1 className="headinganimate3 leading-none lg:text-9xl text-8xl trans1"> GILL</h1>
                     </div>
-                    <div className="lg:col-start-4 lg:row-start-2 col-span-2 row-start-3  self-end  overflow-hidden">
+                    <div className="lg:col-start-5 lg:row-start-2 col-span-2 row-start-3  self-end justify-self-center  overflow-hidden ">
                         <h1 className="headinganimate2 leading-none  text-5xl  trans2"> SOUND</h1>
                     </div>
-                    <div className=" lg:col-start-7   lg:row-start-2 row-start-4  self-end overflow-hidden">
+                    <div className=" lg:col-start-7 lg:row-start-2 row-start-4  self-end overflow-hidden justify-self-center">
                         <h1 className="headinganimate3 leading-none delay-178 text-5xl trans2"> AND</h1>
                     </div>
-                    <div className=" lg:col-start-9   lg:row-start-2 row-start-5 col-span-2 self-end overflow-hidden">
+                    <div className=" lg:col-start-8  lg:row-start-2 row-start-5 col-span-2 self-end overflow-hidden justify-self-center">
                         <h1 className="headinganimate2 leading-none delay-90 text-5xl trans1"> LIGHT</h1>
                     </div>
 

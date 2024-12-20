@@ -20,7 +20,7 @@ const contactComponent = () => {
 
     ]
     return (
-        <section className="pb-8">
+        <section className="pb-4" >
             <div className="w-full flex justify-center items-center lg:pt-0 pt-20 after:content-[''] after:w-32 after:bg-red-500 after:h-0.5 after:m-3" >
                 <p>Contact us</p>
             </div>
